@@ -1,0 +1,215 @@
+WARN    2023-03-16 23:13:47,823 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+ERROR   2023-03-16 23:21:00,082 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1231)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1231)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-16 23:21:00,092 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Marcus', 'matias', 1231)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Marcus', 'matias', 1231)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-16 23:21:00,100 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Javier', 'matias', 4532)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Javier', 'matias', 4532)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-16 23:21:00,108 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Carlos', 'matias', 1231)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Carlos', 'matias', 1231)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+INFO    2023-03-16 23:21:00,166 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-16 23:21:00,168 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+ERROR   2023-03-19 15:15:30,815 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1231)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1231)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 15:15:30,829 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Marcus', 'matias', 1231)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Marcus', 'matias', 1231)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 15:15:30,837 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Javier', 'matias', 4532)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Javier', 'matias', 4532)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 15:15:30,844 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Carlos', 'matias', 1231)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Carlos', 'matias', 1231)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+INFO    2023-03-19 15:15:30,884 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-19 15:15:30,892 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+ERROR   2023-03-19 15:15:58,556 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1231)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1231)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 15:15:58,571 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Marcus', 'matias', 1231)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Marcus', 'matias', 1231)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 15:15:58,582 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Javier', 'matias', 4532)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Javier', 'matias', 4532)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 15:15:58,593 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Carlos', 'matias', 1231)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Carlos', 'matias', 1231)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+INFO    2023-03-19 15:15:58,647 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-19 15:15:58,694 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+ERROR   2023-03-19 16:22:36,364 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Jhonatan/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Jhonatan/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+ERROR   2023-03-19 16:22:36,434 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Jhonatan/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Jhonatan/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+ERROR   2023-03-19 16:22:36,513 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Jhonatan/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Jhonatan/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+ERROR   2023-03-19 16:22:36,546 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Jhonatan/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Jhonatan/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+INFO    2023-03-19 16:22:36,755 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+ERROR   2023-03-19 16:22:55,104 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "BASEDATOSH2.SQL" no encontrada
+Column "BASEDATOSH2.SQL" not found; SQL statement:
+RUNSCRIPT FROM baseDatosH2.sql [42122-214]
+ERROR   2023-03-19 16:22:55,244 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "BASEDATOSH2.SQL" no encontrada
+Column "BASEDATOSH2.SQL" not found; SQL statement:
+RUNSCRIPT FROM baseDatosH2.sql [42122-214]
+ERROR   2023-03-19 16:22:55,650 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "BASEDATOSH2.SQL" no encontrada
+Column "BASEDATOSH2.SQL" not found; SQL statement:
+RUNSCRIPT FROM baseDatosH2.sql [42122-214]
+ERROR   2023-03-19 16:22:55,736 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "BASEDATOSH2.SQL" no encontrada
+Column "BASEDATOSH2.SQL" not found; SQL statement:
+RUNSCRIPT FROM baseDatosH2.sql [42122-214]
+INFO    2023-03-19 16:22:56,043 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+INFO    2023-03-19 16:28:12,694 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-19 16:28:12,700 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+ERROR   2023-03-19 18:52:46,225 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1312)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1312)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 18:52:46,237 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Juan', 'Gonzales', 3233)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Juan', 'Gonzales', 3233)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 18:52:46,247 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Mariana', 'pinamar', 1233)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Mariana', 'pinamar', 1233)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 18:52:46,257 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Belen', 'Mahle', 1239)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Belen', 'Mahle', 1239)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+INFO    2023-03-19 18:52:46,301 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-19 18:52:46,303 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+ERROR   2023-03-19 18:57:32,471 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Jhonatan/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Jhonatan/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+ERROR   2023-03-19 18:57:32,496 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Jhonatan/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Jhonatan/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+ERROR   2023-03-19 18:57:32,559 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Jhonatan/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Jhonatan/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+ERROR   2023-03-19 18:57:32,581 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Jhonatan/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Jhonatan/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+INFO    2023-03-19 18:57:32,644 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+ERROR   2023-03-19 18:58:09,810 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Jhonatan/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Jhonatan/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+ERROR   2023-03-19 18:58:09,836 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Jhonatan/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Jhonatan/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+ERROR   2023-03-19 18:58:09,878 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Jhonatan/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Jhonatan/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+ERROR   2023-03-19 18:58:09,913 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Jhonatan/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Jhonatan/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+INFO    2023-03-19 18:58:09,973 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+INFO    2023-03-19 18:58:24,294 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-19 18:58:24,302 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+ERROR   2023-03-19 19:05:42,439 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1312)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1312)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 19:05:42,445 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Juan', 'Gonzales', 3233)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Juan', 'Gonzales', 3233)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 19:05:42,449 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Mariana', 'pinamar', 1233)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Mariana', 'pinamar', 1233)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 19:05:42,455 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Belen', 'Mahle', 1239)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Belen', 'Mahle', 1239)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+INFO    2023-03-19 19:05:42,494 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-19 19:05:42,496 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+ERROR   2023-03-19 19:09:40,195 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1312)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1312)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 19:09:40,211 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Juan', 'Gonzales', 3233)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Juan', 'Gonzales', 3233)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 19:09:40,220 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Mariana', 'pinamar', 1233)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Mariana', 'pinamar', 1233)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 19:09:40,228 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Belen', 'Mahle', 1239)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Belen', 'Mahle', 1239)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+INFO    2023-03-19 19:09:40,271 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-19 19:09:40,274 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+ERROR   2023-03-19 19:29:20,115 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1312)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1312)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 19:29:20,123 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Juan', 'Gonzales', 3233)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Juan', 'Gonzales', 3233)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 19:29:20,128 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Mariana', 'pinamar', 1233)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Mariana', 'pinamar', 1233)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 19:29:20,133 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Belen', 'Mahle', 1239)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Belen', 'Mahle', 1239)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+INFO    2023-03-19 19:29:20,175 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-19 19:29:20,177 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+ERROR   2023-03-19 20:43:18,694 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1312)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1312)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 20:43:18,702 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Juan', 'Gonzales', 3233)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Juan', 'Gonzales', 3233)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 20:43:18,707 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Mariana', 'pinamar', 1233)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Mariana', 'pinamar', 1233)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 20:43:18,716 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Belen', 'Mahle', 1239)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Belen', 'Mahle', 1239)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+INFO    2023-03-19 20:43:18,755 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-19 20:43:18,757 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+ERROR   2023-03-19 20:45:10,514 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1312)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1312)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 20:45:10,527 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Juan', 'Gonzales', 3233)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Juan', 'Gonzales', 3233)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 20:45:10,533 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Mariana', 'pinamar', 1233)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Mariana', 'pinamar', 1233)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 20:45:10,538 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Belen', 'Mahle', 1239)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Belen', 'Mahle', 1239)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+INFO    2023-03-19 20:45:10,610 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-19 20:45:10,612 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+ERROR   2023-03-19 20:58:17,120 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1312)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(1 AS BIGINT), 'Marcus', 'Gonzales', 1312)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 20:58:17,128 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Juan', 'Gonzales', 3233)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(2 AS BIGINT), 'Juan', 'Gonzales', 3233)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 20:58:17,137 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Mariana', 'pinamar', 1233)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(3 AS BIGINT), 'Mariana', 'pinamar', 1233)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+ERROR   2023-03-19 20:58:17,145 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Belen', 'Mahle', 1239)"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(ID) ( /* key:0 */ CAST(4 AS BIGINT), 'Belen', 'Mahle', 1239)"; SQL statement:
+insert into odontologo values(?,?,?,?) [23505-214]
+INFO    2023-03-19 20:58:17,192 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-19 20:58:17,194 [main] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+INFO    2023-03-20 11:28:33,014 [http-nio-8080-exec-1] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-20 11:28:33,060 [http-nio-8080-exec-1] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+INFO    2023-03-20 11:29:31,805 [http-nio-8080-exec-3] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-20 11:29:31,845 [http-nio-8080-exec-3] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+INFO    2023-03-20 11:30:14,432 [http-nio-8080-exec-5] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-20 11:30:14,464 [http-nio-8080-exec-5] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+INFO    2023-03-20 12:28:18,055 [http-nio-8080-exec-3] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-20 12:28:18,084 [http-nio-8080-exec-3] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+WARN    2023-03-20 13:07:22,172 [http-nio-8080-exec-1] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+WARN    2023-03-20 13:07:46,569 [http-nio-8080-exec-3] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+INFO    2023-03-20 13:08:13,104 [http-nio-8080-exec-4] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-20 13:08:13,124 [http-nio-8080-exec-4] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+WARN    2023-03-20 20:39:01,997 [http-nio-8080-exec-1] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+WARN    2023-03-20 20:39:09,365 [http-nio-8080-exec-3] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+WARN    2023-03-20 20:39:15,709 [http-nio-8080-exec-4] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+WARN    2023-03-20 20:42:14,021 [http-nio-8080-exec-1] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+WARN    2023-03-20 20:46:49,617 [http-nio-8080-exec-1] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+WARN    2023-03-20 20:46:58,430 [http-nio-8080-exec-3] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+WARN    2023-03-20 20:48:58,904 [http-nio-8080-exec-1] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+WARN    2023-03-20 20:49:57,635 [http-nio-8080-exec-1] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+WARN    2023-03-20 20:53:02,643 [http-nio-8080-exec-2] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+INFO    2023-03-20 21:03:12,762 [http-nio-8080-exec-3] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-20 21:03:12,798 [http-nio-8080-exec-3] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+WARN    2023-03-21 21:13:26,511 [http-nio-8080-exec-6] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+INFO    2023-03-21 21:18:03,890 [http-nio-8080-exec-6] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-21 21:18:03,914 [http-nio-8080-exec-6] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+INFO    2023-03-21 21:18:12,846 [http-nio-8080-exec-8] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos:
+WARN    2023-03-21 21:18:12,891 [http-nio-8080-exec-8] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
+INFO    2023-03-23 21:57:45,689 [http-nio-8080-exec-6] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Comenzamos a listar a todos los Odontologos: 
+WARN    2023-03-23 21:57:45,722 [http-nio-8080-exec-6] com.clinicaOdontologica.main.repository.impl.OdontologoDaoH2  - Advertencia, se modifico el valor del autoComit para empezar con la transaction
